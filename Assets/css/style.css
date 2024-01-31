@@ -1,0 +1,86 @@
+/* Guía de Estilos
+Tipografías:
+● Cabin
+● Lobster
+
+Google Fonts
+Weight:
+● Cabin Regular (400)
+● Cabin Bold (700)
+● Lobster Regular (400)
+Colores
+● #373a3c
+● #dddddd
+● #000 o var(--black)
+● #fff o var(--white)
+● #dc3545 o var(--danger) */
+
+
+body {
+    font-family: 'Cabin', sans-serif;
+    
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+}
+
+h1 {
+    text-align: left;
+    margin-right: 10rem;
+
+}
+
+p {
+    font-weight: 400;
+}
+
+hr {
+    border-top: 1px solid #000;
+}
+
+span {
+    font-family: 'Lobster', cursive;
+}
+
+.navbar-brand, footer {
+    font-family: 'Lobster', cursive;
+    font-size: 2.3125em;
+    
+
+}
+
+#ricomidatitle {
+padding-left: 20%;
+
+}
+
+#menu {
+    padding-left: 70%;
+
+}
+
+.carousel-indicators .circulo {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 0 5px;
+    border: 0;
+    background-color: #fff;
+  }
+  
+  .carousel-indicators {
+    bottom: -50px;
+  }
+
+.subscribe {
+    background-color: #DC3545;
+}
+
+.hidden {
+    display: none;
+}
+
+.togglerojo {
+color: red;
+}
